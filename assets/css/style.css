@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.circle1 {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.circle2 {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.list {
+    list-style: none;
+    padding: 0 10px;
+
+    float: right;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #4093eb;
+    height: 70px;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+ul {
+    flex-grow: 9;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+.list:hover {
+
+    background: #87C1FF;
+    transition: ease-in-out all 1s;
+
+}
+
+#profile {
+    vertical-align: middle;
+}
+
+.card {
+    /* margin: 50px; */
+    height: 450px;
+    width: 300px;
+    margin-top: 50px;
+    background: #e1dfdf;
+    box-shadow: 5px 5px 5px 5px #bebbbb;
+}
+
+.imgcard {
+    height: 300px;
+    width: 300px;
+}
+
+.name {
+    text-align: center;
+}
+
+.p1 {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.btn-div {
+    text-align: center;
+
+}
+
+.btn {
+    border: none;
+    width: 120px;
+    height: 30px;
+    background-color: #4093eb;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    width: 130px;
+    height: 40px;
+    background-color: #87C1FF;
+}
+
+.flex-box {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 50px;
+    padding-top: 20px;
+    background-color: rgb(63, 61, 61);
+    color: white;
+}
+
+.footer_headline {
+    font-weight: bold;
+
+}
+
+.footer_list {
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#ft {
+    background-color: rgb(63, 61, 61);
+    color: white;
+    text-align: center;
+    ;
+}
+
+footer div ul li a:hover {
+    color: #4093eb;
+}
